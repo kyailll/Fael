@@ -1,5 +1,5 @@
 
-Prova Discursiva Fael
+### Prova Discursiva Fael
 
 Seu projeto web permite criar um sistema simples de gerenciamento de produtos de supermercado, com as seguintes funcionalidades:
 
@@ -7,10 +7,10 @@ Login de Usuário: Os usuários podem fazer login utilizando um nome de usuário
 
 Menu Principal: Após o login, os usuários têm acesso a um menu principal com várias opções, incluindo:
 
-Cadastro e listagem de produtos.
-Cadastro e listagem de estabelecimentos.
-Listagem dos preços mais baratos em diferentes estabelecimentos.
-Cadastro de Produtos: Os usuários podem cadastrar informações sobre produtos, incluindo nome, marca, tamanho/quantidade, CNPJ, data de validade e categoria.
+1. Cadastro e listagem de produtos.
+2. Cadastro e listagem de estabelecimentos.
+3. Listagem dos preços mais baratos em diferentes estabelecimentos.
+4. Cadastro de Produtos: Os usuários podem cadastrar informações sobre produtos, incluindo nome, marca, tamanho/quantidade, CNPJ, data de validade e categoria.
 
 Listagem de Produtos: Existe uma página que lista todos os produtos cadastrados, mostrando suas informações.
 
@@ -30,6 +30,10 @@ Login
 Menu
 
 ![image](https://github.com/kyailll/Fael/assets/144581701/6a0563e7-c47f-45b8-8ea7-28b26092c380)
+
+
+https://github.com/kyailll/Fael/assets/144581701/7bd223e9-8d1e-46c8-914a-a97014585ce5
+
 
 
 
