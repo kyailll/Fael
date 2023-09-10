@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro e Listagem de Produtos</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+    <h1>Cadastro de Produtos</h1>
+
+    <form action="processa_cadastro.php" method="post">
+        <div class="form-group">
+            <label for="nome">Nome do Produto:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+
+        <div class="form-group">
+            <label for="marca">Marca:</label>
+            <input type="text" id="marca" name="marca" required>
+        </div>
+
+        <div class="form-group">
+            <label for="tamanho">Tamanho/Quantidade:</label>
+            <input type="text" id="tamanho" name="tamanho" required>
+        </div>
+
+        <div class="form-group">
+            <label for="cnpj">CNPJ:</label>
+            <input type="text" id="cnpj" name="cnpj">
+        </div>
+
+        <div class="form-group">
+            <label for="data_validade">Data de Validade:</label>
+            <input type="date" id="data_validade" name="data_validade">
+        </div>
+
+        <div class="form-group">
+            <label for="categoria">Categoria:</label>
+            <input type="text" id="categoria" name="categoria">
+        </div>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <h2>Listagem de Produtos</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do Produto</th>
+                <th>Marca</th>
+                <th>Tamanho/Quantidade</th>
+                <th>CNPJ</th>
+                <th>Data de Validade</th>
+                <th>Categoria</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Produto 1</td>
+                <td>Marca 1</td>
+                <td>100g</td>
+                <td>12345678901234</td>
+                <td>2023-12-31</td>
+                <td>Alimentos</td>
+            </tr>
+            <tr>
+                <td>Produto 2</td>
+                <td>Marca 2</td>
+                <td>200ml</td>
+                <td>98765432109876</td>
+                <td>2024-02-29</td>
+                <td>Bebidas</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>

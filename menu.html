@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Principal</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+    <div class="menu-container">
+        <h1>Menu Principal</h1>
+        <ul class="menu-options">
+            <li><a href="cadastro.html">Cadastro e Listagem de Produtos</a></li>
+            <li><a href="estabe.html">Cadastro e Listagem de Estabelecimento</a></li>
+            <li><a href="listagem.html">Listagem de Produtos</a></li>
+        </ul>
+    </div>
+
+    <script>
+
+        const menuItems = document.querySelectorAll('.menu-options a');
+
+        menuItems.forEach(item => {
+            item.addEventListener('mouseover', () => {
+                item.style.backgroundColor = '#0056b3';
+            });
+
+            item.addEventListener('mouseout', () => {
+                item.style.backgroundColor = '#007BFF';
+            });
+        });
+    </script>
+</body>
+
+</html>
