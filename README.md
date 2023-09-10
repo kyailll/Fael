@@ -1,5 +1,4 @@
-# Fael
-developing a web page
+
 Prova Discursiva Fael
 
 Seu projeto web permite criar um sistema simples de gerenciamento de produtos de supermercado, com as seguintes funcionalidades:
@@ -25,8 +24,11 @@ Em resumo, seu projeto permite gerenciar informações sobre produtos e estabele
 
 
 Login
+
 ![image](https://github.com/kyailll/Fael/assets/144581701/ba2e1616-759a-4871-8fc5-4a6ff3786965)
+
 Menu
+
 ![image](https://github.com/kyailll/Fael/assets/144581701/6a0563e7-c47f-45b8-8ea7-28b26092c380)
 
 
